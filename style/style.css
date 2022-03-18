@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+img {
+	max-width: 100%;
+	max-height: 60vh;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 960px;
+	width: 90%;
+}
+
+header ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-right: 30px;
+}
+
+header ul li:last-child {
+	padding-right: 0;
+}
+
+header ul li a {
+	color: #333;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+header h1 {
+	font-size: 2rem;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+	margin-top: 50px;
+}
+
+main section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+main h1 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+}
+
+main p {
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	line-height: 2;
+	margin-top: 50px;
+}
+
+main button {
+	font-size: 1rem;
+	font-weight: 600;
+	margin: 0;
+	margin-top: 30px;
+	background: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 20px;
+	align-self: baseline;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto 0;
+	max-width: 960px;
+	width: 90%;
+	text-align: center;
+}
+
+footer a {
+	color: #333;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
