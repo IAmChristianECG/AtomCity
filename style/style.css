@@ -88,6 +88,16 @@ main p {
 	margin-top: 50px;
 }
 
+main p a {
+	color: #333;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+main.about p {
+	margin-top: 20px;
+}
+
 main button {
 	font-size: 1rem;
 	font-weight: 600;
